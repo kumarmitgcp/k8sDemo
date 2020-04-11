@@ -15,17 +15,10 @@ pipeline {
 		}	
            }
            
-	   stage('Clean') { 
-                steps {
-                  echo "Cleaning"
-                  sh 'mvn clean'		
-                }
-           }
-	   
 	   stage('Build') { 
                 steps {
                   echo "Cleaning and packaging..."
-                  sh 'mvn package'
+                  sh 'mvn clean package'
                 }
            }
 	    
