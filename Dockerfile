@@ -2,4 +2,4 @@ FROM tomcat:8.0.20-jre8
 
 RUN mkdir /usr/local/tomcat/webapps/myapp
 
-COPY target/k8sDemo-0.0.1-SNAPSHOT.war /usr/local/tomcat/webapps/k8sDemo-0.0.1-SNAPSHOT.war
+COPY kubernetes/target/kubernetes-1.0-SANDEEP.war /usr/local/tomcat/webapps/kubernetes-1.0-SANDEEP.war
