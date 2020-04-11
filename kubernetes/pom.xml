@@ -9,7 +9,7 @@
 
     <artifactId>kubernetes</artifactId>
     <packaging>war</packaging>
-    <name>Project</name>
+    <name>Test</name>
  <dependencies>
         <!-- runtime dependency -->
         <dependency>
