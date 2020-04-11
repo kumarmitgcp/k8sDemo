@@ -37,6 +37,7 @@ pipeline {
 	   }
 	   stage('Build Docker Image') { 
 		steps {
+		   sh 'whoami'
                    script {
 		      myimage = docker.build("kumarmitdocker/devops:${env.BUILD_ID}")
                    }
