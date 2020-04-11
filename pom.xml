@@ -58,17 +58,4 @@
             </plugin>
         </plugins>
     </build>
-	
-	<distributionManagement>
-    <repository>
-      <id>nexus</id>
-      <name>Nexus Releases Test</name>
-      <url>http://34.65.22.209:8081/repository/devopsrepo/</url>
-    </repository>
-    <snapshotRepository>
-      <id>nexus</id>
-      <name>Nexus Snapshot Test</name>
-      <url>http://34.65.22.209:8081/repository/devopsrepo-snap/</url>
-    </snapshotRepository>    
-   </distributionManagement>
 </project>
