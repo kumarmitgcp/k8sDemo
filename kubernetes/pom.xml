@@ -10,24 +10,6 @@
     <artifactId>kubernetes</artifactId>
     <packaging>war</packaging>
     <name>Test</name>
- <dependencies>
-        <!-- runtime dependency -->
-        <dependency>
-            <groupId>hsqldb</groupId>
-            <artifactId>hsqldb</artifactId>
-            <version>1.8.0.10</version>
-            <scope>runtime</scope>
-        </dependency>
-
-        <!-- provided dependency -->
-        <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>servlet-api</artifactId>
-            <version>2.5</version>
-            <scope>provided</scope>
-        </dependency>
-    </dependencies>
-
     <profiles>
         <profile>
             <id>assembly</id>
